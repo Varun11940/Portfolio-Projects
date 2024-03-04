@@ -7,3 +7,7 @@ The Amazon web scraper project involves developing a Python script to extract pr
 🚀 Excited to share a Python script I've been working on for analyzing cryptocurrency data! 📈
 
 This script utilizes the CoinMarketCap API to fetch the latest cryptocurrency listings and then processes the data using the powerful pandas library in Python. The goal is to gain insights into cryptocurrency trends and price movements over time.
+
+#Project 3:
+ The project is focused on enhancing data quality and organization. Initial steps involved standardizing the date format for SaleDate and ensuring accurate population of PropertyAddress data where missing, leveraging ParcelID matches. Subsequently, the address field was dissected into separate columns, facilitating more granular analysis. OwnerAddress underwent a similar treatment, with its components split into distinct fields for improved clarity. Moreover, the SoldAsVacant field was updated to use 'Yes' and 'No' for consistency. Duplicates were identified and removed based on key attributes to maintain data integrity. Finally, unnecessary columns were trimmed to optimize database efficiency. This comprehensive approach ensures the data is now more accurate, organized, and ready for in-depth analysis.
+
